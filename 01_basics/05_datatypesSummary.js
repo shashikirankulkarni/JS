@@ -61,3 +61,28 @@ Return type of variables in JavaScript
        Function  =>  function
        Object  =>  object
        */
+
+
+// Stack, Heap Memory
+
+//Stack is used in Primitive data type memory
+//Heap is used in Non-Primitive data type memory
+
+let myName = "Shashikiran";
+let myAnotherName = myName;
+myAnotherName = "Kulkarni";
+
+console.log(myName);
+console.log(myAnotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "shashi@gmail.com";
+
+console.log(userOne);
+console.log(userTwo);
